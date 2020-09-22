@@ -23,7 +23,10 @@ Data Layer: H2 Embedded Memory DB
 Web Server Cloud Dep: TBD (I have used Heroku)
 Web App Cloud D: TBD (I have used Netlify)
 
-Other Important Information:
+# Important info for running project
+
+If you are able to get my case study running on your machine the username is in28minutes and the password is dummy.  The password can be changed in JwtInMemoryUserDetailsService.java and the token is commented out in jwtTokenRequest.java.  I created new users in the Memory User Details Service and did the Bcryt test but had issues getting tokens for them using Talend.  I used a Full Stack Angular and Spring Boot tutorial by Ranga on Udemy (in28minutes) to guide me through the project.
+
 # Todo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
